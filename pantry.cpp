@@ -289,7 +289,7 @@ void groceryList(int totalBins, Provision* pantryList)
     double estimatedCost;
     for (int count = 0; count < shoppingCount; count++)
     {
-        estimatedCost += shoppingList[count].getTotalCost();
+        estimatedCost += shoppingList[count].getCost();
     }
 
     // Formatting for the .txt file for easier readability
